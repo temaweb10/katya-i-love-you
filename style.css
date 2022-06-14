@@ -1,7 +1,7 @@
 body{
     margin: 0;
     font-family: 'Rubik', sans-serif;
-    background-image: url(../1642407999_30-almode-ru-p-fon-serdechki-na-prozrachnom-fone-32.jpg);
+    background-image: url(/1642407999_30-almode-ru-p-fon-serdechki-na-prozrachnom-fone-32.jpg);
     background-repeat: no-repeat;
 }
 
@@ -70,4 +70,40 @@ body{
     }
 }
 
-@media(max-width)
+@media(max-width:390px){
+    .person-img{
+        max-width: 310px;
+        width: 100%;
+    }
+    .title{
+        font-size: 26px;
+    }
+    .text{
+        font-size: 20px;
+    }
+    .from-text{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:360px){
+    .block{
+        padding: 12px 12px 32px;
+    }
+    .page-content{
+        padding: 4px;
+        padding-bottom: 32px;
+    }
+}
+
+@media(max-width:336px){
+    .title{
+        font-size: 22px;
+    }
+    .text{
+        font-size: 18px;
+    }
+    .from-text{
+        font-size: 18px;
+    }
+}
