@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    background-image: url(../1642407999_30-almode-ru-p-fon-serdechki-na-prozrachnom-fone-32.jpg);
+    background-repeat: no-repeat;
+}
+
+
+
+.page-content {
+    max-width: 1320px;
+    margin:0 auto;
+    padding: 12px;
+}
+
+.block{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 6px;
+    display: flex;
+}
+
+.person-img {
+    max-width: 400px;
+    margin-right: 12px;
+}
+
+.title{
+    font-size: 38px;
+    color: #111;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.text{
+    font-size: 24px;
+    color: #333;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.from-text{
+    font-size: 26px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+@media(max-width:890px){
+    .block{
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 32px;
+    }
+    .person-img{
+        margin-right: 0;
+
+    }
+}
+
+@media(max-width:480px){
+    .title{
+        font-size: 28px;
+    }
+    .text{
+        font-size: 22px;
+    }
+    .from-text{
+        font-size: 22px;
+    }
+    .person-img{
+        max-width: 340px;
+    }
+}
+
+@media(max-width)
